@@ -1,4 +1,4 @@
 
 
 select *
- from test.test_schema.orders
+ from {{ source('GlobalMart', 'orders') }}

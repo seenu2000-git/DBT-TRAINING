@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: GlobalMart
+    database: TEST
+    schema: TEST_SCHEMA
+    tables:
+      - name: customer
+      - name: orders
+      - name: product

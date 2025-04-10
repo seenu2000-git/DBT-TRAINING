@@ -1,2 +1,2 @@
 select *
-from test.test_schema.product
+from {{ source('GlobalMart', 'product') }}
